@@ -1,0 +1,1 @@
+PODS_BEERLY_COUNTLY_OTHER_LDFLAGS = -weak_framework CoreData -weak_framework CoreTelephony

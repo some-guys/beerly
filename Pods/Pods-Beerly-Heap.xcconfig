@@ -1,0 +1,2 @@
+PODS_BEERLY_HEAP_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Heap"
+PODS_BEERLY_HEAP_OTHER_LDFLAGS = -lHeap -framework SystemConfiguration -framework UIKit
