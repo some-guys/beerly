@@ -2,7 +2,7 @@
 platform :ios, "7.1"
 
 
-target "Beerly" do
+target "beerly" do
 	pod 'AFNetworking', '~> 2.0'
 	pod 'ARAnalytics', '~> 2.7'
 

@@ -2,9 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>ContentVersion</key>
-    <string>1.0</string>
-    <key>IAPProductIdentifier</key>
-    <string>ch.some-guys.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>_XCCurrentVersionName</key>
+	<string>beerly.xcdatamodel</string>
 </dict>
 </plist>

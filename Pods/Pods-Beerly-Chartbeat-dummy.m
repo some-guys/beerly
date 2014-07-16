@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Chartbeat : NSObject
+@interface PodsDummy_Pods_beerly_Chartbeat : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Chartbeat
+@implementation PodsDummy_Pods_beerly_Chartbeat
 @end

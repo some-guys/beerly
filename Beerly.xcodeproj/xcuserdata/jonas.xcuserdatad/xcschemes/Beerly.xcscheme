@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC8A78A119766B7A00BFBA87"
-               BuildableName = "Beerly"
-               BlueprintName = "Beerly"
-               ReferencedContainer = "container:Beerly.xcodeproj">
+               BlueprintIdentifier = "DDD32C47197679570071886C"
+               BuildableName = "beerly.app"
+               BlueprintName = "beerly"
+               ReferencedContainer = "container:beerly.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DDD32C5C197679570071886C"
+               BuildableName = "beerlyTests.xctest"
+               BlueprintName = "beerlyTests"
+               ReferencedContainer = "container:beerly.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DDD32C47197679570071886C"
+            BuildableName = "beerly.app"
+            BlueprintName = "beerly"
+            ReferencedContainer = "container:beerly.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -39,15 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC8A78A119766B7A00BFBA87"
-            BuildableName = "Beerly"
-            BlueprintName = "Beerly"
-            ReferencedContainer = "container:Beerly.xcodeproj">
+            BlueprintIdentifier = "DDD32C47197679570071886C"
+            BuildableName = "beerly.app"
+            BlueprintName = "beerly"
+            ReferencedContainer = "container:beerly.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -57,15 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC8A78A119766B7A00BFBA87"
-            BuildableName = "Beerly"
-            BlueprintName = "Beerly"
-            ReferencedContainer = "container:Beerly.xcodeproj">
+            BlueprintIdentifier = "DDD32C47197679570071886C"
+            BuildableName = "beerly.app"
+            BlueprintName = "beerly"
+            ReferencedContainer = "container:beerly.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

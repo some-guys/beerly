@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Bugsnag : NSObject
+@interface PodsDummy_Pods_beerly_Bugsnag : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Bugsnag
+@implementation PodsDummy_Pods_beerly_Bugsnag
 @end

@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Tapstream : NSObject
+@interface PodsDummy_Pods_beerly_Tapstream : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Tapstream
+@implementation PodsDummy_Pods_beerly_Tapstream
 @end

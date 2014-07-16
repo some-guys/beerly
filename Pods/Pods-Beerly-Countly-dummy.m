@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Countly : NSObject
+@interface PodsDummy_Pods_beerly_Countly : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Countly
+@implementation PodsDummy_Pods_beerly_Countly
 @end

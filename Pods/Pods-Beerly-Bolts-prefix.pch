@@ -2,4 +2,4 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "Pods-Beerly-environment.h"
+#import "Pods-beerly-environment.h"

@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Facebook_iOS_SDK : NSObject
+@interface PodsDummy_Pods_beerly_Facebook_iOS_SDK : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Facebook_iOS_SDK
+@implementation PodsDummy_Pods_beerly_Facebook_iOS_SDK
 @end

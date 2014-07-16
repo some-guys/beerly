@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Mixpanel : NSObject
+@interface PodsDummy_Pods_beerly_Mixpanel : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Mixpanel
+@implementation PodsDummy_Pods_beerly_Mixpanel
 @end

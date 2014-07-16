@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Beerly_Amplitude_iOS : NSObject
+@interface PodsDummy_Pods_beerly_Amplitude_iOS : NSObject
 @end
-@implementation PodsDummy_Pods_Beerly_Amplitude_iOS
+@implementation PodsDummy_Pods_beerly_Amplitude_iOS
 @end

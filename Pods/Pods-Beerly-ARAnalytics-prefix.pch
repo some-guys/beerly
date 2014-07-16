@@ -2,7 +2,7 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "Pods-Beerly-environment.h"
+#import "Pods-beerly-environment.h"
 #define AR_AMPLITUDE_EXISTS 1
 #define AR_BUGSNAG_EXISTS 1
 #define AR_CHARTBEAT_EXISTS 1
