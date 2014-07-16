@@ -1,4 +1,4 @@
 beerly
 ======
 
-iOS App For Beerly
+ios 8 beer app
