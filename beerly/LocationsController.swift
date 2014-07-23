@@ -10,6 +10,7 @@ import UIKit
 
 class LocationsController: UITableViewController {
     var test = ["bock", "vollmond", "rugen"]
+    let manager = AFHTTPRequestOperationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()

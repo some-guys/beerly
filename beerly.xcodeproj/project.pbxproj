@@ -39,6 +39,7 @@
 		DD6C973619767F0000485EBD /* beerlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beerlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6C973B19767F0000485EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6C973C19767F0000485EBD /* beerlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beerlyTests.swift; sourceTree = "<group>"; };
+		DDC2B62A197FBC6700EB0BCE /* beerly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "beerly-Bridging-Header.h"; sourceTree = "<group>"; };
 		DDE23C21197FA0B000A76B9C /* LocationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
 		DDE23C25197FACCF00A76B9C /* BeerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +97,7 @@
 				DD6C972619767F0000485EBD /* AppDelegate.swift */,
 				DDE23C25197FACCF00A76B9C /* BeerController.swift */,
 				DD6C972D19767F0000485EBD /* Main.storyboard */,
+				DDC2B62A197FBC6700EB0BCE /* beerly-Bridging-Header.h */,
 				DDE23C21197FA0B000A76B9C /* LocationsController.swift */,
 				DD6C973019767F0000485EBD /* Images.xcassets */,
 				DD6C972819767F0000485EBD /* beerly.xcdatamodeld */,
@@ -386,6 +388,7 @@
 				INFOPLIST_FILE = beerly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "beerly/beerly-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -398,6 +401,7 @@
 				INFOPLIST_FILE = beerly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "beerly/beerly-Bridging-Header.h";
 			};
 			name = Release;
 		};
