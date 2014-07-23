@@ -14,7 +14,19 @@ class LocationsController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("blablabla")
+      
+      
+      manager.GET(
+        "http://beerly-ipa.herokuapp.com/api/v1/locations",
+        parameters: nil,
+        success: { (operation: AFHTTPRequestOperation!,
+          responseObject: AnyObject!) in
+          println("JSON: " + responseObject.description)
+        },
+        failure: { (operation: AFHTTPRequestOperation!,
+          error: NSError!) in
+          println("Error: " + error.localizedDescription)
+        })
     }
 
     override func didReceiveMemoryWarning() {
