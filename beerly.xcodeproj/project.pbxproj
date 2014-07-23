@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC570058197FCAD60029F269 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC570057197FCAD60029F269 /* MapKit.framework */; };
 		DD6C972719767F0000485EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C972619767F0000485EBD /* AppDelegate.swift */; };
 		DD6C972A19767F0000485EBD /* beerly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD6C972819767F0000485EBD /* beerly.xcdatamodeld */; };
 		DD6C972C19767F0000485EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C972B19767F0000485EBD /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		4F277783A5A54AA5B739157C /* libPods-beerly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-beerly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9993949081354F61A827E6AD /* Pods-beerly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beerly.xcconfig"; path = "Pods/Pods-beerly.xcconfig"; sourceTree = "<group>"; };
+		DC570057197FCAD60029F269 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DD4B8F70197FBF870073AC9F /* beerly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "beerly-Bridging-Header.h"; sourceTree = "<group>"; };
 		DD6C972119767F0000485EBD /* beerly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beerly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6C972519767F0000485EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC570058197FCAD60029F269 /* MapKit.framework in Frameworks */,
 				E209777B69674967A2789E72 /* libPods-beerly.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +67,7 @@
 		5A78EB81CF104CBB97FB9249 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC570057197FCAD60029F269 /* MapKit.framework */,
 				4F277783A5A54AA5B739157C /* libPods-beerly.a */,
 			);
 			name = Frameworks;
