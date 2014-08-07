@@ -12,6 +12,7 @@
 		DD6C972F19767F0000485EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6C972D19767F0000485EBD /* Main.storyboard */; };
 		DD6C973119767F0000485EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C973019767F0000485EBD /* Images.xcassets */; };
 		DD6C973D19767F0000485EBD /* beerlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C973C19767F0000485EBD /* beerlyTests.swift */; };
+		DD89DD8E199363840085F76E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89DD8D199363840085F76E /* Location.swift */; };
 		DDE23C22197FA0B000A76B9C /* LocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE23C21197FA0B000A76B9C /* LocationsController.swift */; };
 		DDE23C26197FACCF00A76B9C /* MenuItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE23C25197FACCF00A76B9C /* MenuItemController.swift */; };
 		E209777B69674967A2789E72 /* libPods-beerly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F277783A5A54AA5B739157C /* libPods-beerly.a */; };
@@ -39,6 +40,7 @@
 		DD6C973619767F0000485EBD /* beerlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beerlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6C973B19767F0000485EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6C973C19767F0000485EBD /* beerlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beerlyTests.swift; sourceTree = "<group>"; };
+		DD89DD8D199363840085F76E /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		DDC2B62A197FBC6700EB0BCE /* beerly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "beerly-Bridging-Header.h"; sourceTree = "<group>"; };
 		DDE23C21197FA0B000A76B9C /* LocationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
 		DDE23C25197FACCF00A76B9C /* MenuItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		DD6C972319767F0000485EBD /* beerly */ = {
 			isa = PBXGroup;
 			children = (
+				DD89DD8D199363840085F76E /* Location.swift */,
 				DD6C972619767F0000485EBD /* AppDelegate.swift */,
 				DDE23C25197FACCF00A76B9C /* MenuItemController.swift */,
 				DD6C972D19767F0000485EBD /* Main.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				DDE23C22197FA0B000A76B9C /* LocationsController.swift in Sources */,
 				DDE23C26197FACCF00A76B9C /* MenuItemController.swift in Sources */,
+				DD89DD8E199363840085F76E /* Location.swift in Sources */,
 				DD6C972A19767F0000485EBD /* beerly.xcdatamodeld in Sources */,
 				DD6C972719767F0000485EBD /* AppDelegate.swift in Sources */,
 			);

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E15A7090-B3AC-4EAD-834F-20EB1B1E968E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>beerly</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D550868690D0C3FE322CABF632588EC55F5DF24E</key>
+		<string>https://github.com/some-guys/beerly.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>beerly.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D550868690D0C3FE322CABF632588EC55F5DF24E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/some-guys/beerly.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D550868690D0C3FE322CABF632588EC55F5DF24E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D550868690D0C3FE322CABF632588EC55F5DF24E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>beerly</string>
+		</dict>
+	</array>
+</dict>
+</plist>
