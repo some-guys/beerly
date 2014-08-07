@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BeerController: UITableViewController {
+class MenuItemController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
