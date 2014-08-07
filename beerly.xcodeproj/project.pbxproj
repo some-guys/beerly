@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		DD6C972719767F0000485EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C972619767F0000485EBD /* AppDelegate.swift */; };
 		DD6C972A19767F0000485EBD /* beerly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD6C972819767F0000485EBD /* beerly.xcdatamodeld */; };
-		DD6C972C19767F0000485EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C972B19767F0000485EBD /* ViewController.swift */; };
 		DD6C972F19767F0000485EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6C972D19767F0000485EBD /* Main.storyboard */; };
 		DD6C973119767F0000485EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C973019767F0000485EBD /* Images.xcassets */; };
 		DD6C973D19767F0000485EBD /* beerlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C973C19767F0000485EBD /* beerlyTests.swift */; };
+		DDE23C22197FA0B000A76B9C /* LocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE23C21197FA0B000A76B9C /* LocationsController.swift */; };
+		DDE23C26197FACCF00A76B9C /* MenuItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE23C25197FACCF00A76B9C /* MenuItemController.swift */; };
 		E209777B69674967A2789E72 /* libPods-beerly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F277783A5A54AA5B739157C /* libPods-beerly.a */; };
 /* End PBXBuildFile section */
 
@@ -29,17 +30,18 @@
 /* Begin PBXFileReference section */
 		4F277783A5A54AA5B739157C /* libPods-beerly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-beerly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9993949081354F61A827E6AD /* Pods-beerly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beerly.xcconfig"; path = "Pods/Pods-beerly.xcconfig"; sourceTree = "<group>"; };
-		DD4B8F70197FBF870073AC9F /* beerly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "beerly-Bridging-Header.h"; sourceTree = "<group>"; };
 		DD6C972119767F0000485EBD /* beerly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beerly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6C972519767F0000485EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6C972619767F0000485EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD6C972919767F0000485EBD /* beerly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = beerly.xcdatamodel; sourceTree = "<group>"; };
-		DD6C972B19767F0000485EBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD6C972E19767F0000485EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD6C973019767F0000485EBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD6C973619767F0000485EBD /* beerlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beerlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6C973B19767F0000485EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6C973C19767F0000485EBD /* beerlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beerlyTests.swift; sourceTree = "<group>"; };
+		DDC2B62A197FBC6700EB0BCE /* beerly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "beerly-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDE23C21197FA0B000A76B9C /* LocationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
+		DDE23C25197FACCF00A76B9C /* MenuItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +94,11 @@
 		DD6C972319767F0000485EBD /* beerly */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B8F70197FBF870073AC9F /* beerly-Bridging-Header.h */,
 				DD6C972619767F0000485EBD /* AppDelegate.swift */,
-				DD6C972B19767F0000485EBD /* ViewController.swift */,
+				DDE23C25197FACCF00A76B9C /* MenuItemController.swift */,
 				DD6C972D19767F0000485EBD /* Main.storyboard */,
+				DDC2B62A197FBC6700EB0BCE /* beerly-Bridging-Header.h */,
+				DDE23C21197FA0B000A76B9C /* LocationsController.swift */,
 				DD6C973019767F0000485EBD /* Images.xcassets */,
 				DD6C972819767F0000485EBD /* beerly.xcdatamodeld */,
 				DD6C972419767F0000485EBD /* Supporting Files */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6C972C19767F0000485EBD /* ViewController.swift in Sources */,
+				DDE23C22197FA0B000A76B9C /* LocationsController.swift in Sources */,
+				DDE23C26197FACCF00A76B9C /* MenuItemController.swift in Sources */,
 				DD6C972A19767F0000485EBD /* beerly.xcdatamodeld in Sources */,
 				DD6C972719767F0000485EBD /* AppDelegate.swift in Sources */,
 			);
@@ -381,7 +385,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = beerly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,7 +398,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEFINES_MODULE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = beerly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
