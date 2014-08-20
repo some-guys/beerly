@@ -393,6 +393,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "beerly/beerly-Bridging-Header.h";
+				VALID_ARCHS = "armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -410,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "beerly/beerly-Bridging-Header.h";
+				VALID_ARCHS = "armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
