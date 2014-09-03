@@ -35,19 +35,18 @@ class LocationsController: UITableViewController {
   
   // MARK: - Table view data source
   
-  override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
+  override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
     return 1
   }
   
-  override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
+  override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return test.count
   }
   
-  
-  override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-    let cell = tableView.dequeueReusableCellWithIdentifier("locationCell", forIndexPath: indexPath) as UITableViewCell
+  override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
-    cell.textLabel.text = test[indexPath.row]
+    let cell = tableView.dequeueReusableCellWithIdentifier("locationCell", forIndexPath: indexPath) as UITableViewCell
+    cell.textLabel?.text = test[indexPath.row]
     
     return cell
   }
